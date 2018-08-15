@@ -1,4 +1,7 @@
 var path = require("path");
+const cluster = require('cluster');
+
+var _workerid = cluster.worker ? cluster.worker.id : 'main';
 
 // override instance methods
 function extend(log4js) {
@@ -48,6 +51,8 @@ function formatter(trace) {
   }
 
   return exports.format
+    .split("@worker").join(_workerid)
+    .split("@process").join(process.pid)
     .split("@name").join(trace.name)
     .split("@file").join(trace.file)
     .split("@line").join(trace.line)

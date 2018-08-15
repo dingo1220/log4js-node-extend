@@ -47,3 +47,5 @@ default: `"at @name (@file:@line:@column)"`
 * @file : file name
 * @line : line number
 * @column : column number
+* @worker : cluster worker id / 'main'
+* @process : process pid
