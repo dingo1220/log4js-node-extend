@@ -1,29 +1,29 @@
 {
-  "name": "log4js-extend",
-  "version": "1.0.0",
-  "description": "log4js + line number + worker id + process pid",
-  "main": "log4js-extend.js",
-  "scripts": {
-    "test": "mocha -R spec"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/dingo1220/log4js-node-extend.git"
-  },
-  "keywords": [
-    "logging",
-    "log",
-    "log4js"
-  ],
-  "author": "dingo1220",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/ww24/log4js-node-extend/issues"
-  },
-  "homepage": "https://github.com/dingo1220/log4js-node-extend",
-  "devDependencies": {
-    "chai": "~4.1.1",
-    "log4js": "~2.3.3",
-    "mocha": "~3.5.0"
-  }
+    "name": "log4js-extend",
+    "version": "1.1.0",
+    "description": "log4js + line number + worker id + process pid + thread id",
+    "main": "log4js-extend.js",
+    "scripts": {
+        "test": "mocha -R spec"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dingo1220/log4js-node-extend.git"
+    },
+    "keywords": [
+        "logging",
+        "log",
+        "log4js"
+    ],
+    "author": "dingo1220",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/ww24/log4js-node-extend/issues"
+    },
+    "homepage": "https://github.com/dingo1220/log4js-node-extend",
+    "devDependencies": {
+        "chai": "~4.1.1",
+        "log4js": "~2.3.3",
+        "mocha": "~3.5.0"
+    }
 }
